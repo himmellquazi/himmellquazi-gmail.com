@@ -1,0 +1,97 @@
+/* 
+    Created on : Dec 2, 2017, 4:48:58 PM
+    Author     : Fujael
+*/
+
+@media (min-width: 300px){
+.ad-sm{display:block;margin: 5px 0;}
+.althome2 {margin-top: -15px;}
+header .col-lg-3.branding{text-align:center;margin-bottom:-8px;}
+.top-bar,.home-11{display:none;}
+header.secondary .no-padding-left.ye-ad,
+header.secondary .row.main-row,.ad.ad-home-9{display:none;}
+}
+@media (min-width: 768px){
+.ad-sm{display:none;}
+.top-bar,.home-11{display:block;}
+header.secondary .row.main-row{display:block;}
+.navbar-nav>li>a{padding-bottom: 5px;padding-top: 5px;padding-left: 5px;padding-right: 5px;}
+
+ul.nav li.dropdown:hover > ul.dropdown-menu {display: block;}
+}
+
+@media (min-width: 320px) and (max-width: 960px){
+header .home-11 .contain{margin-right:0px;}
+.ad.ad-home-9{display:block;}
+.ad-sponsered.as-item-1 .item{min-height: initial;}
+.image img{width:auto;max-width: 160px;}
+.itm-pr .h4{margin: 10px;}
+.itm-pr .image .row{margin: 0px;padding-top: 15px;}
+.row.row-r.extr,.row.row-r{margin-left:-15px;}
+.row.row-l.extr,.row.row-l{margin-right:-15px;}
+.row.itm.itm-lb .item{}
+.itm.itm-lb .on-right .row{margin-right: 0;margin-bottom: 10px;}
+.row.itm.itm-lb .items{margin-bottom: 10px;}
+.itm.itm-nbr .items .ad.inside{padding:0;border:0;}
+}
+
+@media (min-width: 300px) and (max-width: 468px){
+.itm.itm-pr,
+.ad-sponsered{padding: 5px;margin-left: -5px;margin-right: 0px;}
+.ad-sponsered.as-item-1.pull-right{margin-left:0;}
+.sect-1 .ad-sponsered.as-item-1 .row{margin: 0;}
+.latest-bonus.ltbs,
+table.compare-table.table,section.container .ad{display:none;}
+
+main.home .ad.ad-home-4,main.home .ad.ad-home-9{display:none;}
+header.top .ticker,.ad728x90 { display: none; }
+.itm.itm-nbr .items{margin-right: 0px;padding: 0px;}
+.new-broker.itm.itm-nbr{margin-right: 0px;margin-left: 0px;}
+.row.row-r.extr,.row.row-r{margin-left: -10px;margin-right: -10px;}
+.col-lg-8.row.analysis {padding: 0;margin: 0 5px;}
+.row.row-l.extr,.row.row-l{margin-left: -10px;margin-right: -10px;}
+.analysis .contain.row.row-r.extr{margin-top: 10px;margin-right: -10px;margin-left: -10px;}
+.analysis .heading{margin: 0 0 10px 0;}
+.analysis .items.row{margin: 0;}
+section.footer,
+.main-article{margin-right: 5px;margin-left: 5px;}
+.featured .item .list {margin-top: 10px;text-align: center;}
+.sect-2.clearfix.row .ad-sponsered{margin-left: -5px;}
+
+.whats_new.itm.itm-b.bordered .contain.row.row-r {margin-right: -10px;margin-left: -10px;}
+.whats_new.itm .items{padding: 0px;}
+.whats_new.itm .items .rightside{display: block;}
+.binary-no.itm.itm-b{margin-top:10px;}
+.tag-items .apply .contain{padding:0 10px}
+.tag-items .item .image-title.col-md-3{width:auto;margin-left: 10px;}
+.tag-items .item .intro.col-md-7{width:auto;}
+}
+
+@media (min-width: 1200px) {
+.col-md-3.clearfix.no-padding-left.ye-ad,
+main.home .ad.ad-home-9{display:block;}
+.container{width: 1200px;}
+.container.x-da2{width: 1100px;}
+.move-left {margin-left: -55px;}
+}
+
+@media(max-width:600px){
+.xs-center{text-align:center;}
+.col-dis-xs {padding:0;}
+.xs-hide{display:none !important;}
+li.dropdown .fa-plus {display: initial;margin-right: 10px;}
+.nav>li>a {display:inline-block;}
+b.caret{display:none;}
+.itm.pull-right{float: initial !important;}
+.itm.pull-left{float: initial !important;}
+.featured.col-md-5{width:100%;margin-top: 10px;}
+.table-responsive, .table-responsive tr, .table-responsive thead, .table-responsive tbody, .table-responsive td, .table-responsive th {display:block;width:100%;}
+.table-responsive td{border: 0px solid #CCC !important;}
+
+.page-featured .info-area {border: 1px solid #CCC;margin: 10px 0;}
+.page-featured .info-area .row{margin:0;}
+.details .image.entry-image img,.details-news .image {
+    display: none;
+}
+}
+
